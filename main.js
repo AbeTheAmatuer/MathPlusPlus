@@ -1,4 +1,4 @@
-function sigma(uL, lL, opp, incVal){
+function sigma(uL, lL, op, incVal){
     let total = 0;
     console.log("incval is " + incVal)
     placeHolder = (incVal === "lL") ? true : false;
@@ -6,7 +6,7 @@ function sigma(uL, lL, opp, incVal){
         if(placeHolder){
             incVal = i;
         }
-        switch(opp){
+        switch(op){
             case "+":
                 total += incVal
                 break;
